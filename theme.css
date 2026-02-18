@@ -1,0 +1,71 @@
+/* @theme roundtable */
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --c-bg: #f8fafc;
+  --c-text: #0f172a;
+  --c-primary: #0f766e;
+  --c-secondary: #2563eb;
+  --c-muted: #475569;
+}
+
+section {
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: 'Vazirmatn', 'Noto Naskh Arabic', Tahoma, sans-serif;
+  font-size: 34px;
+  line-height: 1.55;
+  direction: rtl;
+  text-align: right;
+  padding: 52px 70px;
+}
+
+section.lead {
+  background: linear-gradient(135deg, #0f766e 0%, #2563eb 100%);
+  color: #f8fafc;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 18px;
+  color: var(--c-primary);
+  font-weight: 800;
+}
+
+section.lead h1,
+section.lead h2,
+section.lead h3 {
+  color: #ffffff;
+}
+
+p,
+li {
+  color: inherit;
+}
+
+ul {
+  margin-top: 8px;
+}
+
+small,
+footer {
+  color: var(--c-muted);
+  font-size: 0.58em;
+}
+
+a {
+  color: var(--c-secondary);
+}
+
+strong {
+  font-weight: 700;
+}
+
+blockquote {
+  border-right: 6px solid #94a3b8;
+  padding: 8px 16px;
+  margin: 12px 0;
+  background: #ffffff;
+}

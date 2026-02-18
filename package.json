@@ -1,0 +1,14 @@
+{
+  "name": "roundtable_1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Persian roundtable presentation built with Marp",
+  "scripts": {
+    "build:html": "marp slides.md --theme-set theme.css --html -o index.html",
+    "build:pdf": "marp slides.md --theme-set theme.css --pdf -o roundtable.pdf",
+    "build": "npm run build:html && npm run build:pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.3"
+  }
+}
