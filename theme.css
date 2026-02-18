@@ -55,8 +55,18 @@ footer {
   font-size: 0.58em;
 }
 
+
 a {
   color: var(--c-secondary);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.12em;
+}
+
+section.lead a,
+section.lead a:visited {
+  color: #ffffff;
+  text-decoration-color: rgba(255, 255, 255, 0.92);
+  font-weight: 700;
 }
 
 strong {

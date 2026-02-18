@@ -2,6 +2,9 @@
 
 Built with [Marp CLI](https://github.com/marp-team/marp-cli).
 
+## Site
+- [میزگرد آنلاین](https://nightmachinery.github.io/roundtable_1/)
+
 ## Files
 
 - `slides.md` — slide content in Persian
