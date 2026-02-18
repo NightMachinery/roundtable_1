@@ -4,8 +4,8 @@
   "private": true,
   "description": "Persian roundtable presentation built with Marp",
   "scripts": {
-    "build:html": "marp slides.md --theme-set theme.css --html -o index.html",
-    "build:pdf": "marp slides.md --theme-set theme.css --pdf -o roundtable.pdf",
+    "build:html": "marp slides.md --theme-set theme.css --allow-local-files --html -o index.html",
+    "build:pdf": "marp slides.md --theme-set theme.css --allow-local-files --pdf -o roundtable.pdf",
     "build": "npm run build:html && npm run build:pdf"
   },
   "devDependencies": {
